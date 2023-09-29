@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./../images/focus.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  background-color: rgba(25, 22, 62, 0.744);
+  color: rgb(227, 219, 205);
+  font-family: sans-serif;
+  font-weight: 300;
+  display: flex;
+  letter-spacing: 2px;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+.nav-box {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 24px;
+}
+
+.nav-box li a {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}

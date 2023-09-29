@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Raleway-Lt";
+  src: url(./../fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Rg";
+  src: url(./../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Md";
+  src: url(./../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Bd";
+  src: url(./../fonts/Raleway-Bold.ttf);
+}
+
+html {
+  --color-logo: #666;
+  --color-logohover: #333;
+  --color-menu: #333;
+  --color-menuhaver: #337ab7;
+}
+
+header {
+  height: 76px;
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 200px;
+  line-height: 52px;
+  border-bottom: 2px solid #0000000a;
+}
+
+.logo {
+  font-family: "Raleway-Lt";
+  font-size: 24px;
+  line-height: 52px;
+  color: #666;
+  padding: o 32px 0 16px;
+}
+
+.logo:hover {
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 32px;
+}
+
+.nav-list li {
+  font-family: "Raleway-Rg";
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #333;
+  display: block;
+}
+
+.nav-list li:hover {
+  color: #337ab7;
+}
