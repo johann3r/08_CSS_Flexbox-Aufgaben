@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Quahon";
+  src: url(./../fonts/Quahon.otf);
+}
+
+body {
+  font-family: "Quahon";
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  margin: 72px;
+  width: 50%;
+}
+
+a {
+  font-family: "Quahon";
+  font-size: 48px;
+  color: green;
+  text-decoration: none;
+  background-color: blanchedalmond;
+  padding: 16px 65px;
+  border-radius: 80px;
+  border: solid 4px green;
+  text-align: center;
+}
+
+a:hover {
+  font-size: 48px;
+  color: green;
+  text-decoration: none;
+  background-color: white;
+  padding: 16px 65px;
+  border-radius: 80px;
+  border: solid 4px white;
+  text-align: center;
+}
