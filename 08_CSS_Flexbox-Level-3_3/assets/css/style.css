@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  height: 100vh;
+}
+
+.spring {
+  background-image: url(./../images/spring.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+  transition: all 300ms ease-in-out;
+  filter: grayscale(100%);
+}
+
+.summmer {
+  background-image: url(./../images/summer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+  transition: all 300ms ease-in-out;
+  filter: grayscale(100%);
+}
+
+.autumn {
+  background-image: url(./../images/autumn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+  transition: all 300ms ease-in-out;
+  filter: grayscale(100%);
+}
+
+.winter {
+  background-image: url(./../images/winter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex-grow: 1;
+  transition: all 300ms ease-in-out;
+  filter: grayscale(100%);
+}
+
+div:hover {
+  flex-grow: 3;
+  filter: grayscale(0%);
+}
